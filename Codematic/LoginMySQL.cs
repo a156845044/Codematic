@@ -35,7 +35,7 @@ namespace Codematic
                 }
                 else
                 {
-                    constr = String.Format("server={0};uid={1}; Port={2};pwd={3}; pooling=false", server, user, port, pass);
+                    constr = String.Format("server={0};user id={1}; Port={2};password={3}; pooling=false", server, user, port, pass);
                     try
                     {
                         this.Text = "正在连接服务器，请稍候...";
